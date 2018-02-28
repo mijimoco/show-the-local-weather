@@ -1,0 +1,16 @@
+body{
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Times, serif;
+}
+
+.main{
+  margin-top:50px;
+  padding:30px;
+  font-size: 1.3em;
+  background-color: #060606;
+}
+
+.temp {
+  font-size:3em;
+}
