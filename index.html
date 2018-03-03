@@ -11,21 +11,23 @@
     <!-- My own CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>Hello, world!</title>
+    <title>Show Local Time</title>
   </head>
   <body>
-      <div class="container text-center">
-        <h1>Show Local Weather</h1>
-        <h3>FreeCodeCamp</h3>
-      </div>
+<div class="container">
+  <div class="row text-center">
+    <h2>Show Local Weather</h2>
+    <h3>FreeCodeCamp</h3>
+  </div>
+ <div class="row text-center">
+    <div class="col-xs-4 main">
+      <p><span id="city">City</span>,&nbsp;<span id="country">Country</span></p>
+      <p class="temp"><span id="temp">15</span> </p>
+      <p><span id="desc">Description</span></p>
+    </div>
+  </div>
+</div>
 
-      <div class="row">
-        <div class="col-xs-4 container text-center main">
-          <p><span id="city">City</span>,&nbsp;<span id="country">Country</span></p>
-          <p class="temp"><span id="temp">15</span> </p>
-          <p><span id="desc">Description</span></p>
-        </div>
-      </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
